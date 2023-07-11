@@ -52,7 +52,10 @@ header{
     background-color:#1f262c ;
     padding: 30px;
     border-radius: 6px;
-
+    display: flex;
+    flex-direction: column;
+   
+    
 }
 
 .pricing-plan__title{
@@ -64,7 +67,7 @@ header{
 }
 
 .pricing-plan p{
-    margin: 0;
+    margin: 0 ;
     font-size: 32px;
 }
 
@@ -77,8 +80,19 @@ header{
     color: #b5b5b5;
     padding-left: 16px ;
     line-height: 1.8;
+    flex-grow: 1;
+}
+
+.pricing-plan__features li::marker{
+   color: #cbe300;
 }
 
 .pricing-plan__cta{
-    
+    color: black;
+    font-weight: 900;
+    background-color: #cbe300;
+    text-transform: uppercase;
+    border-radius: 6px;
+    font-size: 16px;
+    padding: 16px 0;
 }
