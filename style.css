@@ -1,0 +1,84 @@
+body{
+    background-color: #0c1014;
+    color: white;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #05080a;
+    padding: 6px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.header__logo{
+    font-size:36px;
+    text-transform: uppercase;
+    margin-left: 16px;
+}
+.header__nav ul{
+    display: flex;
+    list-style-type: none;
+    font-size:18px;
+    gap: 16px;
+}
+.header__nav ul li{
+    border-radius: 4px;   
+    color: white;
+    padding: 14px;
+}
+.header__nav ul li:hover{
+    color: black;
+    background-color:#cbe300 ;
+}
+.main-title{
+    font-size:62px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 46px 0;
+}
+
+.pricing{
+    display: flex;
+    gap: 16px;
+}
+
+.pricing-plan{
+    flex: 1;
+    background-color:#1f262c ;
+    padding: 30px;
+    border-radius: 6px;
+
+}
+
+.pricing-plan__title{
+    text-transform: uppercase;
+    border-bottom: 2px solid #cbe300;
+    margin-top: 0;
+    padding-bottom: 10px ;
+    letter-spacing: 2px;
+}
+
+.pricing-plan p{
+    margin: 0;
+    font-size: 32px;
+}
+
+.pricing-plan__price{
+    font-size: 16px;
+}
+
+.pricing-plan__features{
+    margin:0 0 35px;
+    color: #b5b5b5;
+    padding-left: 16px ;
+    line-height: 1.8;
+}
+
+.pricing-plan__cta{
+    
+}
